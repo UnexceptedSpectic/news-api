@@ -1,0 +1,13 @@
+spring:
+  data:
+    redis:
+      enabled: true
+      host: 
+      port: 6379
+      ## The time in milliseconds allowed for a request
+      timeout: 5000
+      # The time in seconds after which an entry should expire
+      storage-timeout: 900 # 15 minutes
+rss:
+  nyt:
+    technology: https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml
